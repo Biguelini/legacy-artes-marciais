@@ -23,19 +23,8 @@ export default function Hero() {
       </div>
 
       <div className="relative z-20 max-w-[1440px] w-full mx-auto px-5 md:px-10 lg:px-20 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        
-        <div className="lg:col-span-7 flex flex-col items-start text-left relative z-20">
-          
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as const }}
-            className="inline-flex items-center gap-2 px-3 py-1 border border-accent/20 bg-accent/5 text-accent font-space text-[10px] font-bold uppercase tracking-widest mb-4 rounded-none"
-          >
-            <span className="w-1.5 h-1.5 bg-accent" />
-            AULA EXPERIMENTAL 100% GRATUITA
-          </motion.div>
 
+        <div className="lg:col-span-7 flex flex-col items-start text-left relative z-20">
           <div className="relative w-full">
             <div className="absolute -top-16 left-0 font-syne font-extrabold text-[12vw] text-white/[0.01] select-none pointer-events-none z-0 tracking-widest leading-none">
               LEGACY
@@ -103,9 +92,9 @@ export default function Hero() {
               alt="Treinamento de Jiu-Jitsu de alta intensidade na Legacy"
               className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover/hero-img:scale-105 filter brightness-90 contrast-125"
             />
-            
+
             <div className="absolute inset-0 bg-accent/25 mix-blend-color z-10 pointer-events-none" />
-            
+
             <div className="absolute inset-0 bg-gradient-to-t from-background via-black/20 to-transparent z-20 pointer-events-none" />
             <div className="absolute inset-0 bg-gradient-to-r from-background/40 to-transparent z-20 pointer-events-none" />
 
